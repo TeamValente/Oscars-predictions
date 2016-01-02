@@ -1,7 +1,7 @@
 # Oscars-predictions
 Aplicacíon para votar tus prediciones en los Oscars 2016
 
-### Listado de ternas:
+### Listado de ternas: (http://oscar.go.com/nominees)
 * best-picture
 * actor-in-a-leading-role
 * actor-in-a-supporting-role
@@ -29,5 +29,8 @@ Aplicacíon para votar tus prediciones en los Oscars 2016
 
 ## Dependencias:
 * Cocoapods
-* Firebase
+* Firebase (https://www.firebase.com/docs/ios/)
 
+## App concept:
+http://www.ios.uplabs.io/posts/movie-discivery-app
+http://www.materialup.com/posts/movie-review-app-concept
