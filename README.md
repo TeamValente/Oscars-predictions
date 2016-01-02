@@ -1,11 +1,7 @@
 # Oscars-predictions
-Prode de los Oscars
+Aplicacíon para votar tus prediciones en los Oscars 2016
 
-## Dependencias:
-* Cocoapods
-* Firebase
-
-## Listado de ternas
+### Listado de ternas:
 * best-picture
 * actor-in-a-leading-role
 * actor-in-a-supporting-role
@@ -30,3 +26,8 @@ Prode de los Oscars
 * visual-effects
 * writing-adapted-screenplay
 * writing-original-screenplay
+
+## Dependencias:
+* Cocoapods
+* Firebase
+
