@@ -7,17 +7,30 @@
 //
 
 import UIKit
+import Firebase
+
+let rootURL = "https://oscarspredictions.firebaseio.com/"
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var responseView: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        let nominationList = Firebase(url: "\(rootURL)/nominations")
+        nominationList.observeEventType(.Value, withBlock: { snapshot in
+            self.responseView.text = "\(snapshot.value)"
+        })
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
     }
 
 
